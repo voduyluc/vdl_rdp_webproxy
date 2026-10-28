@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Shell scripts run on Linux: always LF, even in a Windows checkout
+# (CRLF breaks the shebang: "/usr/bin/env: 'bash\r': No such file or directory")
+*.sh text eol=lf
